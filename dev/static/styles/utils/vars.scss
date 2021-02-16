@@ -1,0 +1,25 @@
+/// ADAPTIVE ///
+
+$minWidth: 320px;
+$maxWidth: 1920;
+$maxWidthContainer: 1651;
+$md1: $maxWidthContainer + 12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+/// COLORS ///
+
+// Colors
+$accent: #699bf7;
+$accent2: #cbded8;
+$accent3: #f0f6f4;
+$accent4: #dfd8cd;
+$text: #333333;
+$gray: #bdbdbd;
+$white: rgba(255, 255, 255, 1);
+$black: rgba(0, 0, 0, 1);
+$red: rgba(235, 87, 87, 1);
+
+/// FONT-FAMILY ///
+
+$fontFamilyMain: "Rubik";

@@ -1,0 +1,55 @@
+/// UTILS ///
+
+@import "utils/libs";
+@import "utils/vars";
+@import "utils/fonts";
+@import "icons";
+@import "utils/nullstyle";
+@import "utils/mixins";
+///
+
+/// ОСНОВНАЯ СЕТКА ///
+body {
+	font-family: $fontFamilyMain;
+}
+.container {
+	max-width: $maxWidthContainer + px;
+	width: 100%;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 192px;
+	width: 100%;
+	height: 46px;
+	border-radius: 5px;
+	background-color: $accent;
+	text-transform: uppercase;
+	color: $white;
+	font-size: 14px;
+	line-height: 130%;
+	letter-spacing: 0.04em;
+}
+.ibg {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	// img {
+	// 	width: 0;
+	// 	height: 0;
+	// 	position: absolute;
+	// 	top: 0;
+	// 	left: 0;
+	// 	opacity: 0;
+	// 	visibility: hidden;
+	// }
+}
+
+///
+
+/// ПОДКЛЮЧЕНИЕ СЕКЦИЙ ///
+@import "../../pug/blocks/header/header";
