@@ -69,17 +69,17 @@
 		._slider-m28 {
 			margin-right: 28px;
 		}
+		.swiper-pagination-progressbar-fill {
+			height: 3px;
+			background: $accent;
+		}
 	}
 	&__slider-progressbar {
-		position: relative;
 		height: 1px;
 		background: $gray;
 	}
 }
-.swiper-pagination-progressbar-fill {
-	background: $accent;
-	height: 3px;
-}
+
 @media (max-width: 1440px) {
 	.citys {
 		&__item {

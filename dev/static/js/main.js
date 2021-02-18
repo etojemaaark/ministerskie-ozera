@@ -12,7 +12,7 @@ new Swiper(".citys__slider", {
 	},
 	/// Скроллбар ///
 	// scrollbar: {
-	// 	el: '.swiper-scrollbar',
+	// 	el: '.citys__slider-scrollbar',
 	// 	draggable: true,
 	// },
 	/// Количество показываемых слайдов ///
