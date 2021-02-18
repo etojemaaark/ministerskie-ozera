@@ -4,6 +4,13 @@
 	margin-right: 9px;
 }
 .icon-burger {
-	width: 19px;
+	width: 23px;
 	height: 16px;
 }
+@media (max-width: 1240px) {
+	.icon-phone {
+		width: 24px;
+		height: 24px;
+	}
+}
+
