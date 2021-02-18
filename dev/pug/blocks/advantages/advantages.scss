@@ -1,0 +1,72 @@
+.advantages {
+	background-color: $bgc;
+	padding-bottom: 150px;
+	&__content {
+		transform: translate(-100%, 0);
+		opacity: 0;
+		transition: all 0.8s ease 0.1s;
+		&._active {
+			transform: translate(0px, 0px);
+			opacity: 1;
+		}
+	}
+	h2 {
+		transform: translate(-100%, 0);
+		opacity: 0;
+		transition: all 0.8s ease 0s;
+		&._active {
+			transform: translate(0px, 0px);
+			opacity: 1;
+		}
+	}
+	&__item {
+		position: relative;
+		&:hover h3 {
+			transform: translate(0, -60%);
+		}
+		&:hover img {
+			filter: brightness(40%);
+			transform: scale(1.1);
+		}
+		&:hover .advantages__subtitle {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+	&__image {
+		min-height: 365px;
+		position: relative;
+		overflow: hidden;
+		border-radius: 5px;
+		img {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			object-fit: cover;
+			transition: all 0.3s ease 0s;
+			filter: brightness(70%);
+		}
+	}
+	h3 {
+		color: $white;
+		position: absolute;
+		max-width: 445px;
+		bottom: 60px;
+		left: 50px;
+		transition: all 0.3s ease 0s;
+	}
+	&__subtitle {
+		font-size: 16px;
+		line-height: 140%;
+		color: $white;
+		position: absolute;
+		max-width: 470px;
+		bottom: 35px;
+		left: 50px;
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.3s ease 0s;
+	}
+}

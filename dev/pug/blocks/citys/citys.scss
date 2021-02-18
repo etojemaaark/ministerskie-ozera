@@ -3,7 +3,6 @@
 	padding: 120px 0 150px 0;
 	z-index: -1;
 	h2 {
-		margin-bottom: 12px;
 		transform: translate(-100%, 0);
 		opacity: 0;
 		transition: all 0.8s ease 0s;
@@ -65,18 +64,26 @@
 		display: none;
 		max-width: 350px;
 		width: 100%;
-		position: relative;
+		overflow: visible;
 		._slider-m28 {
-			margin-right: 28px;
-		}
-		.swiper-pagination-progressbar-fill {
-			height: 3px;
-			background: $accent;
+			margin-right: 40px;
 		}
 	}
+	&__slider-wrapper {
+	}
 	&__slider-progressbar {
-		height: 1px;
-		background: $gray;
+		position: relative;
+		max-width: 100% !important;
+		width: 100% !important;
+		height: 1px !important;
+		background-color: $gray !important;
+		// height: 1px !important;
+	}
+	.swiper-pagination-progressbar-fill {
+		position: absolute;
+		top: -1px;
+		height: 3px;
+		background-color: $accent !important;
 	}
 }
 
