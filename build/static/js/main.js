@@ -140,11 +140,13 @@ if (animItems.length > 0) {
 
 
 window.onscroll = function showHeader() {
-  var header = document.querySelector('.header');
+  if (window.innerWidth > 820) {
+    var header = document.querySelector('.header');
 
-  if (window.pageYOffset > 43) {
-    header.classList.add('_header-fixed');
-  } else {
-    header.classList.remove('_header-fixed');
+    if (window.pageYOffset > 43) {
+      header.classList.add('_header-fixed');
+    } else {
+      header.classList.remove('_header-fixed');
+    }
   }
 };

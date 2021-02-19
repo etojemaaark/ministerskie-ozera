@@ -123,6 +123,9 @@
 				margin-bottom: 12px;
 			}
 		}
+		&__image {
+			min-height: 380px;
+		}
 	}
 }
 @media (max-width: 540px) {
@@ -143,6 +146,7 @@
 			}
 		}
 		&__image {
+			min-height: 211px;
 			margin-bottom: 12px;
 		}
 	}

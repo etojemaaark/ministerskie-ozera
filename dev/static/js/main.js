@@ -148,10 +148,13 @@ if (animItems.length > 0) {
 /// Фиксированная шапка ///
 
 window.onscroll = function showHeader() {
-	let header = document.querySelector('.header');
-	if (window.pageYOffset > 43) {
-		header.classList.add('_header-fixed');
-	} else {
-		header.classList.remove('_header-fixed');
+	if (window.innerWidth > 820) {
+		let header = document.querySelector('.header');
+		if (window.pageYOffset > 43) {
+			header.classList.add('_header-fixed');
+		} else {
+			header.classList.remove('_header-fixed');
+		}
 	}
 }
+
