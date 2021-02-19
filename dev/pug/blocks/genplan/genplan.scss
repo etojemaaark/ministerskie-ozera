@@ -1,0 +1,28 @@
+.genplan {
+	width: 100%;
+	background-color: $bgc;
+	&__subtitle {
+		max-width: 482px;
+		margin-bottom: 30px;
+	}
+	&__bg {
+		position: relative;
+		max-height: 923px;
+
+		img {
+			width: 100%;
+			height: 100%;
+			height: 100%;
+			z-index: 99999;
+		}
+	}
+	&__svg {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+}

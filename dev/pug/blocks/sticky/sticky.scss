@@ -1,0 +1,36 @@
+.sticky {
+	padding: 100px 0;
+	background-color: $bgc;
+	&__sidebar {
+		p {
+			margin-bottom: 40px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	.sticky-top {
+		top: 10px;
+	}
+	&__content-text {
+		height: 100%;
+		h3 {
+			margin-bottom: 10px;
+		}
+	}
+	&__content-text-subtitle {
+		font-size: 18px;
+		line-height: 140%;
+		color: $text;
+		margin-bottom: 30px;
+	}
+	&__image {
+		min-height: 300px;
+		max-width: 100%;
+		width: 100%;
+		border-radius: 5px;
+	}
+	.mb-30 {
+		margin-bottom: 30px;
+	}
+}

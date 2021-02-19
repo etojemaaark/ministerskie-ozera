@@ -91,6 +91,7 @@ body {
 		left: 0;
 		opacity: 0;
 		visibility: hidden;
+		object-fit: cover;
 	}
 }
 ._h2 {
@@ -137,4 +138,7 @@ body {
 @import "../../pug/blocks/selection/selection";
 @import "../../pug/blocks/citys/citys";
 @import "../../pug/blocks/advantages/advantages";
+@import "../../pug/blocks/sticky/sticky";
+@import "../../pug/blocks/genplan/genplan";
 @import "../../pug/blocks/map/map";
+
