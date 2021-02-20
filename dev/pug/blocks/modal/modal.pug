@@ -1,0 +1,14 @@
+.popup__wrapper
+	a._btn(href="#popup") Консультация
+	#popup.popup
+		a.popup__area(href="##")
+		.popup__body
+			.popup__content
+				a.popup__close(href="##")
+					+icon('cross')
+				.popup__title Обратная связь
+				.popup__subtitle Оставьте ваши данные, а наш менеджер свяжется с вами и ответит на все ваши вопросы
+				form.popup__form
+					input(type="text" class="popup__name" placeholder="Ваше имя")
+					input(type="tel" class="popup__tel" placeholder="Ваш телефон")
+					input(type="email" class="popup__email" placeholder="Ваш @mail")
