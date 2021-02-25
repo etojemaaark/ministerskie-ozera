@@ -4,6 +4,9 @@
 	&__subtitle {
 		max-width: 482px;
 		margin-bottom: 30px;
+		font-size: 18px;
+		line-height: 140%;
+		color: $text;
 	}
 	&__bg {
 		position: relative;
@@ -39,6 +42,15 @@
 			rect {
 				fill-opacity: 0.7;
 			}
+		}
+	}
+}
+@media (max-width: 539px) {
+	.genplan {
+		background-color: $white;
+		padding-bottom: 30px;
+		&__subtitle {
+			font-size: 16px;
 		}
 	}
 }

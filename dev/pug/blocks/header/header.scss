@@ -60,7 +60,6 @@
 	}
 	&__burger {
 		display: none;
-		z-index: 99999999;
 	}
 }
 @media (max-width: 1449px) {
@@ -116,7 +115,7 @@
 			}
 		}
 		&__burger {
-			display: block;
+			display: inline-block;
 		}
 	}
 }

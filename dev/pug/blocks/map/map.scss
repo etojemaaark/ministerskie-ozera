@@ -1,6 +1,6 @@
 .s-map {
-	margin-bottom: 140px;
 	background-color: $bgc;
+	padding-top: 60px;
 }
 .s-map__wrap-map {
 	position: relative;
@@ -37,6 +37,7 @@
 		&:focus {
 			background-color: $accent;
 			color: $white;
+
 			&:nth-child(1) {
 				left: 0;
 			}
@@ -178,8 +179,25 @@
 	// }
 }
 @media only screen and (max-width: 767px) {
+	.s-map {
+		padding-top: 20px;
+	}
 	.s-map__wrap-map {
 		height: 500px;
+	}
+}
+
+@media (max-width: 539px) {
+	.s-map {
+		padding: 0;
+		background-color: $white;
+		&__content {
+			button {
+				&:nth-child(1) {
+					left: 0;
+				}
+			}
+		}
 	}
 }
 @media (max-width: 425px) {
@@ -189,6 +207,13 @@
 	.s-map__content {
 		button {
 			background-color: $white;
+			&:nth-child(1) {
+				border: 1px solid $accent;
+				&:hover,
+				&:focus {
+					border: 1px solid $accent;
+				}
+			}
 		}
 	}
 }
