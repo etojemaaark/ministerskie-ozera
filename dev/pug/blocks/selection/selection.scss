@@ -9,13 +9,6 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		transform: translate(0px, 120%);
-		opacity: 0;
-		transition: all 0.8s ease 0s;
-		&._active {
-			transform: translate(0px, 0px);
-			opacity: 1;
-		}
 		strong {
 			width: 267px;
 			font-weight: 500;
@@ -107,13 +100,6 @@
 		display: flex;
 		justify-content: flex-end;
 		width: 100%;
-		transform: translate(0px, 120%);
-		opacity: 0;
-		transition: all 0.8s ease 0s;
-		&._active {
-			transform: translate(0px, 0px);
-			opacity: 1;
-		}
 	}
 	&__btn {
 		max-width: 210px;

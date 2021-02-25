@@ -2,24 +2,7 @@
 	background-color: $bgc;
 	padding: 120px 0 150px 0;
 	z-index: -1;
-	h2 {
-		transform: translate(-100%, 0);
-		opacity: 0;
-		transition: all 0.8s ease 0s;
-		&._active {
-			transform: translate(0px, 0px);
-			opacity: 1;
-		}
-	}
-	&__content {
-		transform: translate(-100%, 0);
-		opacity: 0;
-		transition: all 0.8s ease 0.2s;
-		&._active {
-			transform: translate(0px, 0px);
-			opacity: 1;
-		}
-	}
+
 	&__subtitle {
 		max-width: 620px;
 		width: 100%;
@@ -27,13 +10,6 @@
 		font-size: 18px;
 		line-height: 140%;
 		color: $text;
-		transform: translate(-100%, 0);
-		opacity: 0;
-		transition: all 0.8s ease 0.2s;
-		&._active {
-			transform: translate(0px, 0px);
-			opacity: 1;
-		}
 	}
 	&__item {
 		h3 {
